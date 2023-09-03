@@ -57,3 +57,11 @@ If we specify standard from the cli (bypassing custom phpcs config), everything 
 ```
 ➜  phpcs3.0-custom-rule-repro git:(main) ✗ vendor/bin/phpcs src --standard="WordPress"
 ```
+
+### Testing using develop branch
+
+1. Run `git checkout use-develop`
+2. Run `composer update`
+3. Run `vendor/bin/phpcs src`
+
+Observe the error.
