@@ -3,8 +3,6 @@
 	<file>.</file>
 	<arg name="extensions" value="php"/>
 	<rule ref="WordPress"/>
-	<rule ref="WordPress-Extra"/>
-	<rule ref="WordPress-Docs"/>
 
 	<rule ref="WordPress.Files.Filename">
 		<exclude-pattern>/src/*\.php</exclude-pattern>
